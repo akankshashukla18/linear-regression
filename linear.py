@@ -91,3 +91,4 @@ if st.button("Predict"):
     prediction = model.predict(input_array)
     st.success(f"Predicted Diabetes Progression Value: {prediction[0]:.2f}")
 
+
